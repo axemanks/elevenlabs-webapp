@@ -65,7 +65,7 @@ export default function Home() {
   return (
     <main >
       <div className="bg-white py-4 px-4 rounded-md">
-        <h3 className='text-2xl font-bold text-blue-800 uppercase mb-6'>Say something</h3>
+        <h3 className='text-2xl font-bold text-blue-800 uppercase mb-6'>ElevenLabs Demo</h3>
         <div className='my-6 flex flex-col gap-4'>
           <div className='flex gap-4 items-center'>
             <label >Select a Voice</label>
@@ -93,7 +93,7 @@ export default function Home() {
           </button>
 
           {/* audio */}
-          {audio && <audio autoPlay controls src={`audio/${audio}`}  />} 
+          {audio && <audio autoPlay controls src={`/audio/${audio}`}  />} 
 
         </div>
       </div>
