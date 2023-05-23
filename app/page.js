@@ -93,7 +93,7 @@ export default function Home() {
           </button>
 
           {/* audio */}
-          {audio && <audio autoPlay controls src={`/audio/${audio}`}  />} 
+          {audio && <audio autoPlay controls src={`/public/audio/${audio}`}  />} 
 
         </div>
       </div>
